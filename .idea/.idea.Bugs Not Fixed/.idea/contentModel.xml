@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="CameraShake.cs" t="Include" />
+          <e p="Constants.cs" t="Include" />
+          <e p="DeathZone.cs" t="Include" />
+          <e p="DelayAnimation.cs" t="Include" />
+          <e p="DelayDestroy.cs" t="Include" />
+          <e p="Dust.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
+          <e p="EnemyPatrol.cs" t="Include" />
+          <e p="EnemySpawner.cs" t="Include" />
+          <e p="EventManager.cs" t="Include" />
+          <e p="Events.cs" t="Include" />
+          <e p="Eye.cs" t="Include" />
+          <e p="Gun.cs" t="Include" />
+          <e p="LevelManager.cs" t="Include" />
+          <e p="MenuManager.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
+          <e p="Platform.cs" t="Include" />
+          <e p="PlatformGroup.cs" t="Include" />
+          <e p="PlatformSpawner.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
+          <e p="PlayerControlls.cs" t="Include" />
+          <e p="Probability.cs" t="Include" />
+          <e p="Settings.cs" t="Include" />
+          <e p="SoundEffects.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Bugs Not Fixed.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Bugs Not Fixed.682639427.00" t="ExcludeRecursive" />
+  </component>
+</project>
