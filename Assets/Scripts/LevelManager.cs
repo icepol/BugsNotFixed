@@ -19,12 +19,19 @@ public class LevelManager : MonoBehaviour
     private int _score;
     private float _height;
     private int _killed;
+
+    private Animator _scoreAnimator;
+    private Animator _heightAnimator;
+    private Animator _killedAnimator;
     
     private int Score
     {
         get => _score;
         set
         {
+            if (_score != value)
+                _scoreAnimator.SetTrigger("Change");
+            
             _score = value;
 
             scoreText.text = (_score + (int)_height).ToString();
@@ -36,6 +43,9 @@ public class LevelManager : MonoBehaviour
         get => _height;
         set
         {
+            if (_height != value)
+                _heightAnimator.SetTrigger("Change");
+            
             _height = value;
 
             heightText.text = ((int)_height).ToString();
@@ -47,6 +57,9 @@ public class LevelManager : MonoBehaviour
         get => _killed;
         set
         {
+            if (_killed != value)
+                _killedAnimator.SetTrigger("Change");
+            
             _killed = value;
 
             killedText.text = _killed.ToString();
@@ -61,6 +74,10 @@ public class LevelManager : MonoBehaviour
         EventManager.AddListener(Events.PLAYER_DIED, OnPlayerDied);
         EventManager.AddListener(Events.ENEMY_DIED, OnEnemyDied);
         EventManager.AddListener(Events.PLAYER_POSITION_CHANGE, OnPlayerPositionChange);
+
+        _scoreAnimator = scoreText.GetComponent<Animator>();
+        _killedAnimator = killedText.GetComponent<Animator>();
+        _heightAnimator = heightText.GetComponent<Animator>();
     }
 
     void Start()

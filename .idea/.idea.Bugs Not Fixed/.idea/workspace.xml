@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbed7897-d63b-4354-a5d9-43ae4a140bc6" name="Default Changelist" comment="" />
+    <list default="true" id="cbed7897-d63b-4354-a5d9-43ae4a140bc6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bugs Not Fixed/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bugs Not Fixed/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bugs Not Fixed/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bugs Not Fixed/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Enemy.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemyIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemyIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawner.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawner.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawnerIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawnerIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawnerSpawn.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemySpawnerSpawn.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemyWalk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/EnemyWalk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Gun.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Gun.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/GunFire.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/GunFire.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/GunIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/GunIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayButton.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayButton.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayButtonIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayButtonIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerIdle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerIdle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerJump.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerJump.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerWalk.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/PlayerWalk.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Probability.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Probability.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityHidden.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityHidden.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityOnScreen.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityOnScreen.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityShow.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabilityShow.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabiltyHide.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/ProbabiltyHide.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +68,9 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dust.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,7 +80,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Events.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gun.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Probability.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,10 +115,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraShake.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Events.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControlls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" />
       </list>
     </option>
   </component>
@@ -101,10 +149,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="84021">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="5796">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="84021" />
+      <option name="pid" value="5796" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -122,7 +170,8 @@
       <workItem from="1579339912025" duration="29305000" />
       <workItem from="1579509361756" duration="1035000" />
       <workItem from="1579679208465" duration="3079000" />
-      <workItem from="1579861965130" duration="1586000" />
+      <workItem from="1579861965130" duration="2017000" />
+      <workItem from="1580131424127" duration="1170000" />
     </task>
     <servers />
   </component>
@@ -131,6 +180,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

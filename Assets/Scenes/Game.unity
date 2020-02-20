@@ -96,6 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -179,6 +180,7 @@ GameObject:
   - component: {fileID: 192489745}
   - component: {fileID: 192489747}
   - component: {fileID: 192489746}
+  - component: {fileID: 192489748}
   m_Layer: 5
   m_Name: HeightText
   m_TagString: Untagged
@@ -245,6 +247,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192489744}
   m_CullTransparentMesh: 0
+--- !u!95 &192489748
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192489744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5106537a28567499d8912439029aacf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &249130628
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +767,7 @@ GameObject:
   - component: {fileID: 817867885}
   - component: {fileID: 817867887}
   - component: {fileID: 817867886}
+  - component: {fileID: 817867888}
   m_Layer: 5
   m_Name: KilledText
   m_TagString: Untagged
@@ -812,6 +834,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 817867884}
   m_CullTransparentMesh: 0
+--- !u!95 &817867888
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817867884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5106537a28567499d8912439029aacf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &866946269
 GameObject:
   m_ObjectHideFlags: 0
@@ -1265,6 +1306,7 @@ GameObject:
   - component: {fileID: 2131247485}
   - component: {fileID: 2131247487}
   - component: {fileID: 2131247486}
+  - component: {fileID: 2131247488}
   m_Layer: 5
   m_Name: ScoreText
   m_TagString: Untagged
@@ -1331,6 +1373,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131247484}
   m_CullTransparentMesh: 0
+--- !u!95 &2131247488
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131247484}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5106537a28567499d8912439029aacf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2644280376706827232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1565,25 +1626,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1773230733, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 5144c832b3a0d40dcbe0ac356c0759d0, type: 2}
     - target: {fileID: 1773230734, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
       propertyPath: m_Constraints
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1773230735, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
-      propertyPath: moveSpeed
-      value: 400
-      objectReference: {fileID: 0}
-    - target: {fileID: 1773230735, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
-      propertyPath: jumpForce
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 1773230735, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
-      propertyPath: fallingGravityScale
-      value: 1.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1773230735, guid: dc01022e1e3504c99aa4d2b9993a158f, type: 3}
-      propertyPath: maxJumpCount
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 146970126301768556, guid: dc01022e1e3504c99aa4d2b9993a158f,
         type: 3}
