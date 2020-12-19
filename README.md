@@ -1,6 +1,6 @@
 # Bugs Not Fixed
 
-A simple pixel art arcade game made for [Wowie Jam 2.0!](https://itch.io/jam/wowie-jam-2).  
+Simple infinite platformer built for [Wowie Jam 2.0!](https://itch.io/jam/wowie-jam-2).  
 The topic is "intentional bugs" so there are a lot of bugs in the game 🙃  
 
 The game can be played in the browser on [pixelook.itch.io/bugs-not-fixed](https://pixelook.itch.io/bugs-not-fixed).
@@ -14,7 +14,7 @@ The game can be played in the browser on [pixelook.itch.io/bugs-not-fixed](https
 ## Pictures
 
 ### Cover
-![Cover](images/Cover630x500.png)
+![Cover](images/Cover630x500.jpg)
 
 ### Concept
 ![Concept](images/Concept.jpg)
